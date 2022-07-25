@@ -24,7 +24,7 @@ class Stack:
 
     def pop(self,data):
         if not self.is_empty():
-            self.items.pop(-1)
+            self.items.pop()
 
     def status(self):
         for element in self.items:
